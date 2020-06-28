@@ -1,0 +1,21 @@
+#bar-box {
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f6f6f6;
+    display: flex;
+}
+.bar-item-box {
+    flex: 1;
+    text-align: center;
+}
+img {
+    margin: 10px 0 10px;
+    height: 25px;
+    width: 25px;
+}
+.isActive {
+    color: red;
+}
